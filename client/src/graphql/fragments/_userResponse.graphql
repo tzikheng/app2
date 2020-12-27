@@ -1,0 +1,8 @@
+fragment _userResponse on UserResponse {
+  errors {
+    ..._error
+  }
+  user{
+    ..._user
+  }
+}
